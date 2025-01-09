@@ -7,7 +7,6 @@ import Testimonial from "../components/Testimonial";
 import AccordionItem from "../components/AccordionItem";
 import framebg from "@/public/assets/images/framebg.png";
 import profile from "@/public/assets/images/alex.jpg";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 const ProductConsulting = () => {
@@ -263,7 +262,7 @@ const ProductConsulting = () => {
             height="50px"
             className="rounded-md text-xl py-6"
           >
-            Let's connect
+           {` Let's connect`}
           </Button>
         </div>
       </section>
@@ -276,21 +275,18 @@ const ProductConsulting = () => {
           </h1>
         </div>
         <Testimonial
-          profileImg={profile}
           testimonial="I came to Ushaseer with just an idea, and today, that idea is a thriving business with real traction. His expertise in feasibility research and strategy development is unmatched!"
           author="Sarah K."
           designation="Startup Founder"
         />
 
         <Testimonial
-          profileImg={profile}
           testimonial="We were struggling to scale our product, but Ushaseer’s guidance on product pitches and business strategy was transformative. He’s not just a consultant; he’s a true partner."
           author="David T."
           designation="CEO"
         />
 
         <Testimonial
-          profileImg={profile}
           testimonial="Ushaseer helped me create a business plan that wowed our
              investors. His insight and professionalism are invaluable."
           author="Amaka E."

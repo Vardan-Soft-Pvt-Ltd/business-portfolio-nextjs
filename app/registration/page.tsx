@@ -10,7 +10,7 @@ import PopupCard from "../components/PopupCard";
 const cohorts = ["Cohort 1", "Cohort 2", "Cohort 3"];
 
 export default function Registration() {
-  let countryData = Country.getAllCountries();
+  const countryData = Country.getAllCountries();
   const [countries] = useState(countryData);
 
   const [isPopupOpen, setIsPopupOpen] = useState(false);

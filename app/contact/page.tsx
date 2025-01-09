@@ -17,7 +17,7 @@ interface Props {
 }
 
 const Contact: React.FC<Props> = ({ heading, paragra }) => {
-  let countryData = Country.getAllCountries();
+  const countryData = Country.getAllCountries();
   const [countries] = useState(countryData);
 
   const [isPopupOpen, setIsPopupOpen] = useState(false);
