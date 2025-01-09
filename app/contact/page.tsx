@@ -10,12 +10,12 @@ import PopupCard from "../components/PopupCard";
 
 const purpose = ["Purpose 1", "Purpose 2", "Purpose 3"];
 
-interface Props {
-  heading?: string;
-  paragra?: string;
-}
+// interface Props {
+//   heading?: string;
+//   paragra?: string;
+// }
 
-const Contact: React.FC<Props> = ({ heading, paragra }) => {
+const Contact: React.FC = () => {
   const countryData = Country.getAllCountries();
   const [countries] = useState(countryData);
 
@@ -56,10 +56,10 @@ const Contact: React.FC<Props> = ({ heading, paragra }) => {
           <div className="w-full  mx-auto pl-6">
             <div className="w-full md:w-[80%] mx-auto border">
               <h1 className="w-full md:max-w-[50%] text-TextDarkBlue text-4xl md:text-6xl font-bold mt-20">
-                {heading}
+                {/* {heading} */}
               </h1>
               <p className="w-full md:w-[80%] text-2xl py-6 text-TextDarkBlue">
-                {paragra}
+                {/* {paragra} */}
               </p>
             </div>
           </div>
