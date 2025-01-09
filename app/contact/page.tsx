@@ -3,7 +3,6 @@ import { Country } from "country-state-city";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useState } from "react";
-// import { IoChevronDownOutline } from "react-icons/io5";
 
 import framebg from "@/public/assets/images/framebg.png";
 import { registrationSchema, RegistrationData } from "../lib/validate";
@@ -12,8 +11,8 @@ import PopupCard from "../components/PopupCard";
 const purpose = ["Purpose 1", "Purpose 2", "Purpose 3"];
 
 interface Props {
-  heading: string;
-  paragra: string;
+  heading?: string;
+  paragra?: string;
 }
 
 const Contact: React.FC<Props> = ({ heading, paragra }) => {
@@ -31,9 +30,6 @@ const Contact: React.FC<Props> = ({ heading, paragra }) => {
   } = useForm<RegistrationData>({
     resolver: zodResolver(registrationSchema),
   });
-
-  // const [countryDropdown, setCountryDropdown] = useState(false);
-  // const [purposeDropdown, setPurposeDropdown] = useState(false);
 
   const onSubmit = (data: RegistrationData) => {
     console.log("Form Data:", data);
