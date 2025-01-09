@@ -7,7 +7,6 @@ import pict from "@/public/assets/images/usherseer.png";
 import WhereSpeak from "../components/WhereSpeak";
 import framebg from "@/public/assets/images/framebg.png";
 import Testimonial from "../components/Testimonial";
-import profile from "@/public/assets/images/alex.jpg";
 import bookMe from "@/public/assets/images/book-me.png";
 import { useRouter } from "next/navigation";
 
@@ -27,7 +26,7 @@ const Speaking = () => {
             className="text-PrimaryBlue text-center text-[30px] py-4 md:py-8 
           md:text-[60px] font-semibold leading-[30px] md:leading-[60px]"
           >
-            Let’s Inspire, Educate, and Transform
+          {`  Let’s Inspire, Educate, and Transform`}
             <span className="text-SecondaryBlue">Together</span>
           </h1>
           <div className="w-full flex justify-center items-center">
@@ -35,11 +34,11 @@ const Speaking = () => {
               className="w-full md:w-[70%] text-center text-TextDarkBlue 
             tracking-tighter pt-0 md:pt-4 py-4"
             >
-              With speaking experiences in multiple events, I bring energy,
+            {`  With speaking experiences in multiple events, I bring energy,
               insight, and actionable takeaways to every stage I step on.
               Whether it’s a room full of professionals or aspiring individuals
               eager to grow, I tailor my talks to resonate, inspire, and spark
-              meaningful change.
+              meaningful change.`}
             </p>
           </div>
           <div className="w-full flex justify-center items-center pb-20 md:pb-40">
@@ -116,8 +115,8 @@ const Speaking = () => {
                 Tailored Talks
               </h4>
               <p className="text-TextDarkBlue py-8">
-                Each talk is uniquely designed to fit the event’s theme and
-                audience needs, ensuring every listener leaves with value.
+               {` Each talk is uniquely designed to fit the event’s theme and
+                audience needs, ensuring every listener leaves with value.`}
               </p>
             </div>
             {/* Card  4*/}
@@ -126,9 +125,9 @@ const Speaking = () => {
                 Action-Oriented Approach
               </h4>
               <p className="text-TextDarkBlue py-8">
-                It’s not just about the “why” but the “how.” I ensure every
+              {`  It’s not just about the “why” but the “how.” I ensure every
                 session leaves attendees with practical steps they can implement
-                immediately.
+                immediately.`}
               </p>
             </div>
           </div>
@@ -156,8 +155,8 @@ const Speaking = () => {
           >
             <div className="w-full">
               <h1 className="w-full text-white leading-[30px] font-bold px-8 absolute bottom-[4rem]">
-                “A great speech doesn’t just inspire—it transforms.” “Words have
-                the power to create movements; let’s start one together.”
+              {`  “A great speech doesn’t just inspire—it transforms.” “Words have
+                the power to create movements; let’s start one together.”`}
               </h1>
             </div>
           </div>
@@ -167,7 +166,7 @@ const Speaking = () => {
             <section className="w-full md:w-[60%] px-10">
               <div className="w-full mx-auto bg-LightPurple">
                 <h1 className="text-TextDarkBlue text-3xl md:text-5xl font-bold py-10">
-                  Let’s work together
+             {`     Let’s work together`}
                 </h1>
                 <div className="pb-10">
                   <p className="text-TextDarkBlue">
@@ -179,7 +178,7 @@ const Speaking = () => {
               </div>
               <div>
                 <button className="text-sm bg-PurpleGray px-6 py-1 font-bold text-TextDarkBlue rounded-full">
-                  Let’s make it memorable
+               {`   Let’s make it memorable`}
                 </button>
               </div>
             </section>
@@ -194,22 +193,20 @@ const Speaking = () => {
             </h1>
           </div>
           <Testimonial
-            profileImg={profile}
-            testimonial="Ushaseer’s keynote at our conference was a game-changer.
+            testimonial={`Ushaseer’s keynote at our conference was a game-changer.
                He connected with our audience effortlessly and left them motivated to take action."
-            author="David T."
+            author="David T.`}
+              author="Faruk K.,"
             designation="CEO"
           />
           <Testimonial
-            profileImg={profile}
-            testimonial="We’ve had speakers before, but Ushaseer brought
+            testimonial={`We’ve had speakers before, but Ushaseer brought
                a unique mix of expertise, energy, and relatability that stood
-                out. Our attendees loved every moment!"
+                out. Our attendees loved every moment!`}
             author="Fatima S.,"
             designation="Workshop Coordinator."
           />
           <Testimonial
-            profileImg={profile}
             testimonial="Hearing Ushaseer speak is like getting a personal
                guide to success. His storytelling and actionable insights are unmatched."
             author="Michael O."
