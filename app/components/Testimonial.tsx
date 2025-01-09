@@ -1,8 +1,6 @@
 import React from "react";
-import Image, { StaticImageData } from "next/image";
 
 interface TestimonialCardProps {
-  profileImg: StaticImageData;
   testimonial: string;
   author: string;
   designation: string;
