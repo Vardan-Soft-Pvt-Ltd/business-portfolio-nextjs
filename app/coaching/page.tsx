@@ -6,7 +6,7 @@ import frame from "@/public/assets/images/bg-dots.png";
 import RightPerson from "../components/RightPerson";
 import CoachingPackages from "../components/CoachingPackages";
 import ProductLeadership from "../components/ProductLeadership";
-import CareerCoaching from "../components/CareerCoaching.tsx";
+import CareerCoaching from "../components/CareerCoaching";
 import DontJustTake from "../components/DontJustTake";
 import AccordionItem from "../components/AccordionItem";
 import Contact from "../contact/page";
@@ -55,8 +55,8 @@ const Coaching = () => {
       <CareerCoaching />
       <DontJustTake />
       <Contact
-        heading="Let's Get Started"
-        paragra={`'No matter where you are in your product management journey, I’m here to help you succeed. Whether it’s solving product challenges, becoming a stronger leader, or launching your career, I’m just a message away.'`}
+        // heading="Let's Get Started"
+        // paragra={`'No matter where you are in your product management journey, I’m here to help you succeed. Whether it’s solving product challenges, becoming a stronger leader, or launching your career, I’m just a message away.'`}
       />
 
       {/* Form */}
