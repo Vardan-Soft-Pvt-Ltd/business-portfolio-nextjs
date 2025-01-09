@@ -6,7 +6,6 @@ import frame from "@/public/assets/images/bg-dots.png";
 import Testimonial from "../components/Testimonial";
 import AccordionItem from "../components/AccordionItem";
 import framebg from "@/public/assets/images/framebg.png";
-import profile from "@/public/assets/images/alex.jpg";
 import { useRouter } from "next/navigation";
 
 const ProductConsulting = () => {
@@ -17,7 +16,6 @@ const ProductConsulting = () => {
   };
   return (
     <section className="relative w-full bg-white  ">
-      {/* <div className="w-full grid grid-cols-1 gap-10 px-4 md:px-16 pt-4 md:pt-16"> */}
       <div
         className="w-full bg-gray-50 grid grid-cols-1 gap-10 px-4 md:px-16 pt-4 md:pt-16 bg-cover bg-bottom bg-no-repeat md:bg-center"
         style={{ backgroundImage: `url(${frame.src})` }}
