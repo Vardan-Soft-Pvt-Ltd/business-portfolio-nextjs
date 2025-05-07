@@ -20,17 +20,13 @@ const HomeHero = () => {
       {/* left side */}
       <div className="w-full md:w-[60%] px-4">
         <h1 className="w-full text-white text-[40px] md:text-[60px] font-semibold leading-8 md:leading-[60px]">
-          <p>{`I don't just coach`}</p>
+          <p>{`Lorem Ipsum is simply dummy text`}</p>
           <p>{`products; I enpower`}</p>
           <p>{`people to build`}</p>
           <p>{`their vision`}</p>
         </h1>
         <p className="w-full md:w-4/5 text-white my-8">
-          {`Over the years, I’ve trained and guided thousands of professionals
-            and a couple of businesses to find clarity, scale impact, and
-            achieve results. Whether you’re an individual seeking growth, a team
-            in need of direction, or a company aiming to level up, this is the
-            place where transformation begins.`}
+          {`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`}
         </p>
         <div className="w-full py-8 md:w-[350px]">
           <Button

@@ -17,7 +17,7 @@ const montserrat = Montserrat({
   variable: "--font-montserrat",
 });
 export const metadata: Metadata = {
-  title: "Tembe Ushaseer",
+  title: "Sachitananda Research Institute",
   description: "Portfolio",
 };
 

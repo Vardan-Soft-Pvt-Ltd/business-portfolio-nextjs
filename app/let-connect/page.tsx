@@ -16,10 +16,10 @@ const countries = [
   "United States",
   "Canada",
   "United Kingdom",
-  "Nigeria",
+  "Nepal",
   "India",
 ];
-const purpose = ["Coaching", "Product consulting", "Masterclass", "Speaking"];
+const purpose = ["Partnership", "Enquiry", "Study"];
 
 const LetGetStarted = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -125,9 +125,8 @@ const LetGetStarted = () => {
                   <input
                     type="text"
                     id="fullName"
-                    className={`mt-1 block w-full px-4 py-2 border bg-white ${
-                      errors.fullName ? "border-red-500" : "border-gray-300"
-                    } rounded-md`}
+                    className={`mt-1 block w-full px-4 py-2 border bg-white ${errors.fullName ? "border-red-500" : "border-gray-300"
+                      } rounded-md`}
                     {...register("fullName")}
                   />
                   {errors.fullName && (
@@ -148,9 +147,8 @@ const LetGetStarted = () => {
                   <input
                     type="email"
                     id="email"
-                    className={`mt-1 block w-full px-4 py-2 border bg-white ${
-                      errors.email ? "border-red-500" : "border-gray-300"
-                    } rounded-md`}
+                    className={`mt-1 block w-full px-4 py-2 border bg-white ${errors.email ? "border-red-500" : "border-gray-300"
+                      } rounded-md`}
                     {...register("email")}
                   />
                   {errors.email && (
@@ -171,9 +169,8 @@ const LetGetStarted = () => {
                   <input
                     type="text"
                     id="phoneNumber"
-                    className={`mt-1 block w-full px-4 py-2 border bg-white ${
-                      errors.phoneNumber ? "border-red-500" : "border-gray-300"
-                    } rounded-md`}
+                    className={`mt-1 block w-full px-4 py-2 border bg-white ${errors.phoneNumber ? "border-red-500" : "border-gray-300"
+                      } rounded-md`}
                     {...register("phoneNumber")}
                   />
                   {errors.phoneNumber && (
@@ -192,9 +189,8 @@ const LetGetStarted = () => {
                     Country of Residence
                   </label>
                   <div
-                    className={`mt-1 flex justify-between items-center px-4 py-2 border bg-white ${
-                      countryError ? "border-red-500" : "border-gray-300"
-                    } rounded-md cursor-pointer`}
+                    className={`mt-1 flex justify-between items-center px-4 py-2 border bg-white ${countryError ? "border-red-500" : "border-gray-300"
+                      } rounded-md cursor-pointer`}
                     onClick={() => setCountryDropdown(!countryDropdown)}
                   >
                     <span>{selectedCountry || "Select a country"}</span>
@@ -234,9 +230,8 @@ const LetGetStarted = () => {
                     Purpose for reaching out
                   </label>
                   <div
-                    className={`mt-1 flex justify-between items-center px-4 py-2 bg-white border ${
-                      purposeError ? "border-red-500" : "border-gray-300"
-                    } rounded-md cursor-pointer`}
+                    className={`mt-1 flex justify-between items-center px-4 py-2 bg-white border ${purposeError ? "border-red-500" : "border-gray-300"
+                      } rounded-md cursor-pointer`}
                     onClick={() => setCohortDropdown(!cohortDropdown)}
                   >
                     <span>{selectedPurpose || "Select from the options"}</span>
@@ -312,37 +307,19 @@ const LetGetStarted = () => {
         </div>
         <div className="w-full sm:w-[100%] md:w-[100%] space-y-6">
           <AccordionItem
-            title="Who is Ushaseer Tembe?"
-            content="Ushaseer offers Product Discovery Coaching,
+            title="Who is Sachitananda Research Institute?"
+            content="Sachitananda Research Institute offers Product Discovery Coaching,
                Product Leadership Coaching, and Career Coaching 
                (1:1 coaching tailored to unique individual needs)."
           />
           <AccordionItem
-            title="Who can sign up for coaching?"
+            title="Who can join us?"
             content="Professionals looking to transition 
               into product management, product leaders seeking to 
               refine their leadership skills, and individuals 
               exploring career growth in product management are all welcome."
           />
-          <AccordionItem
-            title="How are coaching sessions structured?"
-            content="Sessions are tailored to individual or team needs.
-               They typically involve identifying challenges, co-creating 
-               solutions, and actionable strategies, with practical, real-world insights."
-          />
-          <AccordionItem
-            title="Do you offer team or corporate coaching?"
-            content="Yes, team coaching is available for companies 
-              looking to align their teams around a shared product vision 
-              or enhance team performance."
-          />
-          <AccordionItem
-            title="What makes Ushaseer’s coaching different?"
-            content="Ushaseer’s approach is rooted in extensive experience, 
-            including training from Silicon Valley Product Group (SVPG) and personalized 
-            strategies that empower individuals and teams to find unique solutions by focusing 
-            on outcomes and not outputs."
-          />
+
         </div>
       </section>
     </main>

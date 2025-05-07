@@ -88,10 +88,10 @@ const Footer = () => {
           <nav className="w-full">
             <ul className="w-full space-y-2 md:space-y-6 grid grid-cols-2 md:grid-cols-1 gap-6 md:gap-0 ">
               {[
-                { href: "/coaching", text: "Coaching" },
-                { href: "/product-consulting", text: "Product consulting" },
-                { href: "/masterclass", text: "Masterclass" },
-                { href: "/speaking", text: "Speaking" },
+                { href: "/about", text: "About Us" },
+                { href: "/vision", text: "Vision" },
+                { href: "/blogs", text: "Blogs" },
+
               ].map((link, index) => (
                 <li key={index}>
                   <Link href={link.href}>{link.text}</Link>
@@ -114,8 +114,8 @@ const Footer = () => {
         </Link>
         <div>
           <p>
-            <Link href="mailto:info@ushaseer.com">
-              <span>info@ushaseer.com</span>
+            <Link href="mailto:info@sachitananda.com">
+              <span>info@sachitananda.com</span>
             </Link>
           </p>
           <p>

@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <div className="bg-white">
       <HomeHero />
-      <IgniteYourIdea />
+      {/* <IgniteYourIdea /> */}
       <Services />
       <CraftProduct />
       <WhatOthersSay />
@@ -27,22 +27,18 @@ const HomePage = () => {
         </div>
         <div className="w-full sm:w-[100%] md:w-[100%] space-y-6 mt-4">
           <AccordionItem
-            title="Who is Ushaseer Tembe?"
-            content="Ushaseer is a Product Management expert, public speaker,
+            title="Who is Sachitananda Research Institute?"
+            content="Sachitananda Research Institute is a Product Management expert, public speaker,
            and coach with years of experience mentoring over 10,000 individuals 
            globally and consulting with businesses to drive product success"
           />
           <AccordionItem
-            title="What services does Ushaseer offer?"
-            content="Ushaseer specializes in product coaching, product consulting,
+            title="What services does Sachitananda Research Institute offer?"
+            content="Sachitananda Research Institute specializes in product coaching, product consulting,
            public speaking, and hosting masterclasses tailored to professionals
             and businesses seeking excellence in product management and strategy."
           />
-          <AccordionItem
-            title="How can I contact Ushaseer?"
-            content="You can reach out through the Let’s connect 
-          page on this website or by submitting a query through the provided form."
-          />
+
         </div>
       </section>
     </div>

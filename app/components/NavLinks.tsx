@@ -1,7 +1,12 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const navLinks = ["Coaching", "Product Consulting", "Masterclass", "Speaking"];
+const navLinks = [
+  "About",
+  "Vision",
+  "Blogs"
+  // "Coaching", "Product Consulting", "Masterclass", "Speaking"
+];
 
 interface NavLinksProps {
   isOpen: boolean;
@@ -36,22 +41,19 @@ const NavLinks: React.FC<NavLinksProps> = () => {
           >
             <Link
               href={linkPath}
-              className={`hover:border-none ${
-                isActive
-                  ? "text-[#4F46E5]"
-                  : `${
-                      routes.includes(currentPath)
-                        ? "text-[#2B3674]"
-                        : "text-white"
-                    }`
-              }`}
+              className={`hover:border-none ${isActive
+                ? "text-[#4F46E5]"
+                : `${routes.includes(currentPath)
+                  ? "text-[#2B3674]"
+                  : "text-white"
+                }`
+                }`}
             >
               {link}
             </Link>
             <span
-              className={`absolute left-0 -bottom-1 w-full h-1 transition-opacity duration-300 ${
-                isActive ? "opacity-100" : "opacity-0 group-hover:opacity-100"
-              }`}
+              className={`absolute left-0 -bottom-1 w-full h-1 transition-opacity duration-300 ${isActive ? "opacity-100" : "opacity-0 group-hover:opacity-100"
+                }`}
             >
               <svg
                 width="100%"
