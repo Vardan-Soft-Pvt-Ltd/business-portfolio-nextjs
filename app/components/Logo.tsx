@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logo from "@/public/assets/images/usher-logo.png";
+import logo from "@/public/assets/images/logo.png";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 

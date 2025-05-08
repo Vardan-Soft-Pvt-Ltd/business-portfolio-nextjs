@@ -4,7 +4,7 @@ import React from "react";
 import Button from "./share/Button";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/assets/images/usher-logo.png";
+import logo from "@/public/assets/images/logo.png";
 
 const Footer = () => {
   return (
