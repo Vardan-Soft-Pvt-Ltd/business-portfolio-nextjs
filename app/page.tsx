@@ -1,10 +1,7 @@
 "use client";
 import React from "react";
 import HomeHero from "./components/HomeHero";
-import IgniteYourIdea from "./components/IgnitYourIdea";
-import Services from "./components/Services";
 import CraftProduct from "./components/CraftProduct";
-import WhatOthersSay from "./components/WhatOthersSay";
 import LetsWorkTogether from "./components/LetsWorkTogether";
 import AccordionItem from "./components/AccordionItem";
 import BigThing from "./components/BigThing";
