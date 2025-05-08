@@ -14,9 +14,9 @@ const HomePage = () => {
     <div className="bg-white">
       <HomeHero />
       {/* <IgniteYourIdea /> */}
-      <Services />
+      {/* <Services /> */}
       <CraftProduct />
-      <WhatOthersSay />
+      {/* <WhatOthersSay /> */}
       <LetsWorkTogether />
       <BigThing />
       <section className="w-full px-4 md:px-16 py-8">
